@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sass --watch src/assets/scss/index.scss build/css/index.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Slavkololo/lush-maket/issues"
   },
-  "homepage": "https://github.com/Slavkololo/lush-maket#readme"
+  "homepage": "https://github.com/Slavkololo/lush-maket#readme",
+  "dependencies": {
+    "sass": "^1.26.5"
+  }
 }
