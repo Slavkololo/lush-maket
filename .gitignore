@@ -102,3 +102,6 @@ build
 
 # TernJS port file
 .tern-port
+
+#Reset
+._reset.scss
