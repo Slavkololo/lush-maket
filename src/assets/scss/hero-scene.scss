@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
 
     background: url(https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/2963516/910/566/m2/fpnw/wm1/rbvx3dfemnwiqun5rrucc4dq5uyzvva8d0vnkju9szmzwmwjo8y8elkx6ppwc4e3-.jpg?1499866230&s=264543c932d1666f52a274c34850c271);
+    
 
     .intro__inner {
         width: 100%;
@@ -51,4 +52,20 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 
+}
+
+.section {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient();
+    
+    .title {
+        padding: 5px;
+        color: red;
+        border: red;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+    }
 }
