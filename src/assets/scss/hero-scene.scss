@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
         max-width: 880px;
         margin: 0 auto;
     
-        color: red;
+        color: #f38181;
         text-align: center;
         font-weight: 700;
         letter-spacing: 5px;
@@ -79,8 +79,26 @@ h1, h2, h3, h4, h5, h6 {
         transform: translate(-50%, -800%);
         
         padding: 5px;
-        color: red;
-        border-top: 1px solid red;
-        border-bottom: 1px solid red;
-    }  
+        color: #f38181;
+    } 
+    
+    .title::before {
+        content: "";
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 10px auto 10px;
+
+        background-color: #f38181;  
+    } 
+
+    .title::after {
+        content: "";
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 10px auto 10px;
+
+        background-color: #f38181;  
+    }   
 }
