@@ -3,6 +3,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 2;
+
+    
+   /* width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#0e1c29, #383333 70%); */
 }
 
 *::before,
@@ -102,3 +107,38 @@ h1, h2, h3, h4, h5, h6 {
         background-color: #f38181;  
     }   
 }
+
+
+.blog {
+    position: relative;
+}
+
+    .blog__block {
+        position: absolute;
+        width: 700px;
+        height: 200px;
+        
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -270%);
+
+        line-height: 20px;
+        color: white;
+
+        background-color: black;
+
+        z-index: 1;
+    }
+
+        .blog__container {
+            position: relative;
+            width: 500px;
+            height: 100px;
+            margin: 10px auto 10px;
+        
+        } 
+
+            .date {
+                font-size: 10px;
+            }
