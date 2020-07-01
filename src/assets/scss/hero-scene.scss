@@ -155,8 +155,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Parallax */
 .parallax {
-    background: url(https://i.pinimg.com/originals/5e/6d/44/5e6d444cbf5c2d563fd07d1a797dd7b1.jpg) no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 300px;
+    min-height: 200px;
+    background: transparent;
 }
