@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Slavkololo/lush-maket#readme",
   "dependencies": {
+    "parallax-js": "^3.1.0",
     "reset-css": "^5.0.1",
     "sass": "^1.26.5"
   }
