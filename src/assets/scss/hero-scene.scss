@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+/* Backgrorund */
 .background {
     position: relative;
     width: 100%;
@@ -122,7 +123,6 @@ h1, h2, h3, h4, h5, h6 {
 
     }
      
-
     &__text {
         padding: 0 30px;
         left: 175px;
@@ -146,4 +146,21 @@ h1, h2, h3, h4, h5, h6 {
 .parallax {
     min-height: 300px;
     background: transparent;
+
+    /* &__text {
+        text-align: center;
+        color: whitesmoke;
+
+     } */
 }
+
+
+//PHOTOS
+.photos {
+    position: relative;
+    display: flex;
+
+    &__content {
+       
+    }
+} 
