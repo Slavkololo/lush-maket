@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../build/css/index.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="assets/js/parallax.min.js"></script>
-    
+    <script src="../node_modules/parallax-js/dist/parallax.min.js"></script>
     <title>Lush</title>
 </head>
 
@@ -27,9 +25,9 @@
    <section class="blog section">
         <div class="container">
             <h3 class="title">FROM THE BLOG</h3>
-            <div class="blog__content">   
-                <img class="blog__img" src="img/2.jpg" alt="">
-                <div class="blog__text">     
+            <div class="blog__content">
+                <img class="blog__img" src="assets/img/2.jpg" alt="">
+                <div class="blog__text">
                     <p class="blog__date">AUG 16TH, 2012</p>
                     <p>BEST VIOLINIST PLAYERS OF YEAR </p>
                     <p>JAME LANE</p>
@@ -39,11 +37,15 @@
    </section>
 
     <section>
-        <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="img/1.jpg">         
-            <div class="parallax__text"> 
-                <h3>“Lush is a super theme for Music Bands, DJs, Musicians and Bloggers.”</h3> 
+        <div id="parallax" class="parallax" >
+            <div class="parallax__content" data-depth="0.2" style="background-image: url(assets/img/1.jpg);"></div>
+
+
+
+            <div class="parallax__text" data-depth="0.2">
+                <h3>“Lush is a super theme for Music Bands, DJs, Musicians and Bloggers.”</h3>
                 <p>- Handcrafted by IronTemplates</p>
-            </div>     
+            </div>
         </div>
     </section>
 
@@ -51,14 +53,19 @@
         <div class="container">
             <h3 class="title">FEATURED PHOTOS</h3>
             <div class="photos__content">
-                <img src="img/01.jpg" alt="">
-                <img src="img/02.jpg" alt="">
-                <img src="img/03.jpg" alt="">
+                <img src="assets/img/01.jpg" alt="">
+                <img src="assets/img/02.jpg" alt="">
+                <img src="assets/img/03.jpg" alt="">
             </div>
         </div>
-    </section>    
+    </section>
 
 </div>
+
+<script>
+    var scene = document.getElementById('parallax');
+    new Parallax(scene);
+</script>
 </body>
 </html>
 
